@@ -1,0 +1,7 @@
+#! /bin/bash
+set -e
+make;
+~/CONFIGURATIONMIXING/ethene/configurationMixing_ethene.exe -f input.txt > output.txt;
+echo 'done!'
+
+

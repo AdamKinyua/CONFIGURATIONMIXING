@@ -1,0 +1,19 @@
+Main/configurationMixing_h2
+
+NAME
+    configuration mixing calculator 
+
+SYNOPSIS
+    the algorithm computes configuration mixing between MOs or NOs 
+
+USAGE
+    1. Input/Output       
+        input.txt         contains matrix files
+                          - the first line contains an integer
+                            indicating how many matrix files 
+                            are there in the input file
+                           - subsequent lines contains matrix files with reference matrix 
+                             file at the very top
+
+
+                            ~/CONFIGURATIONMIXING/configrationMixing_h2/configurationMixing_h2.exe -f input.txt > output.txt;

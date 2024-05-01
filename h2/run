@@ -1,0 +1,7 @@
+#! /bin/bash
+set -e
+make;
+~/CONFIGURATIONMIXING/h2/configurationMixing_h2.exe -f input.txt > output.txt;
+echo 'done!'
+
+
