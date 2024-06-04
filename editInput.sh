@@ -19,7 +19,7 @@ n=$1
 echo "$((n))" > input.txt
 
 # Loop to write the file names
-for (( i=0; i<$n+1; i++ ))
+for (( i=1; i<$n+1; i++ ))
         do
             #echo "h$i.mat" >> input.txt
             echo "NatOrbs-wholedensitymatrix-$i-1.mat" >> input.txt
