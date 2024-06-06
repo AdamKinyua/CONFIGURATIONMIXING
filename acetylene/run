@@ -1,0 +1,7 @@
+#! /bin/bash
+set -e
+echo 'running configuration analysis... ... ...';
+~/CONFIGURATIONMIXING/ethene/configurationMixing_ethene.exe -f input.txt > output.txt;
+echo 'done!'
+
+
